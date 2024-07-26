@@ -1,0 +1,76 @@
+body {
+    background-color: #694f8e ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.To-Do{
+    background-color: #694f8e;
+    border-radius: 10px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.title{
+    color: #b692c2;
+    margin-bottom: 15px;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#task {
+    width: calc(100% - 60%);
+    padding: 10px;
+    border: 4px solid #e3a5c7;
+    border-radius: 5px;
+    outline: none;
+}
+#add {
+    background-color: #b692c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:4vh;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+#add:hover{
+    background-color: #5c3c85;
+}
+#task {
+    list-style-type: none;
+    padding: 0;
+    margin: 2px 0 0;
+}
+
+#task li {
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: left;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task li .delete {
+    background-color: #b692c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#task li .delete:hover{
+    background-color: #5c3c85;
+}
