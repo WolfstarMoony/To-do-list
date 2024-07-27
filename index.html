@@ -3,19 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css" />
   <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-    <div class="To-Do">
-        <h1 class="title"">To-Do List</h1>
-        <div class="input-container">
-        <input id="task" type="text" placeholder="add a task">
-        <button id="add">Add</button>
-        <ul id="tasks">
-        <!-- Tasks will be added here -->
-        </ul>
-    </div>
-    <script src="script.js"></script>
-   </body>
+<body>
+  <header class="site-header">
+    <img class="site-header__image" src="/img/giphy.webp" alt="Dynamic Header Image">
+    <h1 class="site-header__title">To-Do List</h1>
+  </header>
+  <form class="todo-form">
+    <label class="todo-form__label" for="todo">What do you need to do today?</label>
+    <input id="todo" class="todo-form__input" type="text" placeholder="Enter your task here"
+    name="todo" id="to-do" size="30" autocomplete="off"
+    required>
+    <button class="todo-form__button"><span>Add Task</span></button>
+  </form>
+  <div>
+    <ul class="toDoList">
+    </ul>
+  </div>
+</body>
 </html>
