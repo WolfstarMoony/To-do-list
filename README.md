@@ -82,3 +82,17 @@ form.addEventListener('submit', e => {
     addItemToArray(itemId, toDoItem);
     input.value = '';
 });
+
+## Contributing
+
+Feel free to contribute by submitting a pull request or opening an issue. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **Design Inspiration:** For design ideas and concepts.
+- **JavaScript Resources:** For JavaScript tips and tricks.
+
