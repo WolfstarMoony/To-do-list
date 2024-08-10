@@ -10,19 +10,19 @@
   <section class="container">
     <div class="headling">
       <img class="headling__img" src="/img/giphy.webp" alt="Dynamic Header Image">
-      <h1 class="headling__title">To-Do List</h1>
+      <h1 class="headling__title" data-title="To-Do List">To-Do List</h1>
     </div>
     <form class="form">
       <div>
-        <label class="form__label" for="todo">What do you need to do today?</label>
+        <label class="form__label" for="todo" data-label="What do you need to do today?">What do you need to do today?</label>
         <input class="form__input" type="text" id="todo" name="to-do" size="30" autocomplete="off" required>
-        <button class="button"><span>Add Task</span></button>
+        <button class="button" data-button="Add Task"><span>Add Task</span></button>
       </div>
     </form>
     <div>
       <ul class="toDoList"></ul>
     </div>
-    <script src="todo-list.js"></script>
   </section>
+  <script src="todo-list.js"></script>
 </body>
 </html>
