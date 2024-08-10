@@ -7,20 +7,21 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <img class="site-header__image" src="/img/giphy.webp" alt="Dynamic Header Image">
-    <h1 class="site-header__title">To-Do List</h1>
-  </header>
-  <form class="todo-form">
-    <label class="todo-form__label" for="todo">What do you need to do today?</label>
-    <input id="todo" class="todo-form__input" type="text" placeholder="Enter your task here"
-    name="todo" id="to-do" size="30" autocomplete="off"
-    required>
-    <button class="todo-form__button"><span>Add Task</span></button>
-  </form>
-  <div>
-    <ul class="toDoList">
-    </ul>
-  </div>
+  <section class="container">
+    <div class="headling">
+      <img class="headling__img" src="/img/giphy.webp" alt="Dynamic Header Image">
+      <h1 class="headling__title">To-Do List</h1>
+    </div>
+    <form class="form">
+      <div>
+        <label class="form__label" for="todo">What do you need to do today?</label>
+        <input class="form__input" type="text" id="todo" name="to-do" size="30" autocomplete="off" required>
+        <button class="button"><span>Add Task</span></button>
+      </div>
+    </form>
+    <div>
+      <ul class="toDoList"></ul>
+    </div>
+  </section>
 </body>
 </html>
