@@ -10,7 +10,7 @@ Welcome to the To-Do List application! This project allows you to manage your ta
 
 ## Preview
 
-![To-Do List Preview](Screenshot_1.png)
+![To-Do List Preview](Screenshot_2.png)
 
 ## Getting Started
 
